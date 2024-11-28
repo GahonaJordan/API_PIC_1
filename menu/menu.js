@@ -44,9 +44,10 @@ class Mimenu extends HTMLElement {
 
     render = () => {
         const opciones = [
-            { item: 'Inicio', link: '/Tarea_API/presentacion.html' },
-            { item: 'Galeria_JSON', link: '/Tarea_API/galeria_json.html' },
-            { item: 'API', link: '/Tarea_API/api.html' },
+            { item: 'Inicio', link: '/Tarea_API - copia/index.html'},
+            { item: 'Presentación', link: '/Tarea_API - copia/paginas/presentacion.html' },
+            { item: 'Galeria_JSON', link: '/Tarea_API - copia/paginas/galeria_json.html' },
+            { item: 'API', link: '/Tarea_API - copia/paginas/api.html' },
         ];
 
         opciones.forEach(op => {
